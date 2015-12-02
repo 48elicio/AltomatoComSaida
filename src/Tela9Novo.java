@@ -26,6 +26,7 @@ public class Tela9Novo extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jRadioButton1 = new javax.swing.JRadioButton();
@@ -42,8 +43,10 @@ public class Tela9Novo extends javax.swing.JFrame {
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
+        buttonGroup1.add(jRadioButton1);
         jRadioButton1.setText("Ligar para o número novamente");
 
+        buttonGroup1.add(jRadioButton2);
         jRadioButton2.setText("Ir atrás da arma do crime");
 
         jButton1.setText("Continuar");
@@ -139,6 +142,7 @@ public class Tela9Novo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
