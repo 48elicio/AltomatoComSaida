@@ -18,6 +18,7 @@ public class Tela6Novo extends javax.swing.JFrame {
      */
     public Tela6Novo() {
         initComponents();
+        setLocationRelativeTo(null); 
     }
 
     /**

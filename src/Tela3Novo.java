@@ -13,6 +13,7 @@ public class Tela3Novo extends javax.swing.JFrame {
     /** Creates new form Tela3Novo */
     public Tela3Novo() {
         initComponents();
+        setLocationRelativeTo(null); 
     }
 
     /** This method is called from within the constructor to

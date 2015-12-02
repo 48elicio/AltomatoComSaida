@@ -16,6 +16,7 @@ public class Tela1Novo extends javax.swing.JFrame {
      */
     public Tela1Novo() {
         initComponents();
+        setLocationRelativeTo(null); 
     }
 
     /**
@@ -32,6 +33,7 @@ public class Tela1Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(0, 0));
 
         jTextPane1.setEditable(false);
         jTextPane1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -73,6 +75,7 @@ public class Tela1Novo extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
         tela2.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
